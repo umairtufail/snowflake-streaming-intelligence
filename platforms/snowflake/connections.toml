@@ -1,0 +1,15 @@
+# Snowflake CLI connection config template
+# Copy this file to ~/.snowflake/connections.toml and fill in your credentials
+#
+#   cp platforms/snowflake/connections.toml ~/.snowflake/connections.toml
+#   chmod 0600 ~/.snowflake/connections.toml
+#
+# Usage: snow sql -q "SELECT 1" -c snowflake_conn
+
+[snowflake_conn]
+account = "OHHGHHL-ZM06890"
+user = "<your-email>"
+password = "<your-password>"
+warehouse = "WH_TEAM_8_M"
+database = "DB_TEAM_8"
+schema = "PUBLIC"

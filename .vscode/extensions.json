@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "dbtlabsinc.dbt",
+        "snowflake.snowflake-vsc"
+    ]
+}
